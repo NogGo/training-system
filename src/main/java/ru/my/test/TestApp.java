@@ -38,5 +38,22 @@ public class TestApp {
         System.out.println("-------------------");
 
         System.out.println(Streams.findWeight());
+        System.out.println("-------------------");
+
+        Runnable runnable = () -> System.out.println("Hello world!");
+        Thread t = new Thread(runnable);
+        t.start();
+
+        FunInter inter = i -> i%13 == 0;
+        System.out.println(inter.convert(14));
+
+
+        FunInter2 inter2 = (a, b) -> a.length() > b.length() ? a:b;
+        System.out.println(inter2.onLenght("ttt", "t"));
+
+        FunInter3 inter3 = (a, b, c) -> Math.pow(b, 2) - 4*a*c;
+
+        System.out.println(inter3.Diskr(2.4,5.,1.7));
+        inter3.sout();
     }
 }
