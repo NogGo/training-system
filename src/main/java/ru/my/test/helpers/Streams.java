@@ -1,12 +1,10 @@
-package ru.my.test;
+package ru.my.test.helpers;
 
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
-import java.util.stream.IntStream;
-import java.util.stream.Stream;
 
 public class Streams  {
     private static final Collection<Task> tasks;
@@ -46,7 +44,7 @@ public class Streams  {
         }
     }
 
-    static double countOpen () {
+    public static double countOpen () {
         // Подсчет общего количества очков всех активных задач с использованием sum()
         return (long) tasks
                 .stream()
@@ -55,7 +53,7 @@ public class Streams  {
                 .sum();
     }
 
-    static Map<Status, List<Task>> mapOnStatus() {
+    public static Map<Status, List<Task>> mapOnStatus() {
 
         // Группировка задач по их статусу
         return tasks
@@ -63,7 +61,7 @@ public class Streams  {
                 .collect( Collectors.groupingBy( Task::getStatus ));
     }
 
-    static Collection<Double> findWeight () {
+    public static Collection<Double> findWeight () {
         // Подсчет веса каждой задачи (как процент от общего количества очков)
         System.out.println(String.format("%.2f", Streams.countOpen()));
 //        return tasks

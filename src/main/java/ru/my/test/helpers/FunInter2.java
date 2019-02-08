@@ -1,4 +1,4 @@
-package ru.my.test;
+package ru.my.test.helpers;
 
 @FunctionalInterface
 public interface FunInter2 {
