@@ -177,7 +177,7 @@ public class TestApp {
         ArrayList<TestXMLGK> testXMLGKS = new ArrayList<>();
         testXMLGKS.addAll(listxml);
         testXMLGKS.forEach(System.out::println);
-        PrintWriter
+//        PrintWriter
     }
 
     private static XMLGregorianCalendar getXmlGC() {
