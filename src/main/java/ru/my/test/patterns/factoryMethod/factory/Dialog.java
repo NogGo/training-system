@@ -10,10 +10,19 @@ import ru.my.test.patterns.factoryMethod.Travels.Travel;
 
 public abstract class Dialog {
 
-    public void selectTranspot() {
+    /**
+     * Используем фабричный метод. Бизнес-логика не зависит от
+     * конкретных классов продуктов. Travel — это общий
+     * интерфейс путешествий, поэтому все хорошо.
+     **/
+    public void pack() {
         Travel travel = createTravel();
         travel.startPack();
     }
 
+    /**
+     * Подклассы будут переопределять этот метод, чтобы создавать конкретные
+     * объекты продуктов, разные для каждой фабрики.
+     */
     public abstract Travel createTravel();
 }

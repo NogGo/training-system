@@ -11,6 +11,7 @@ public class SummerTravel implements Travel {
         if (log.isDebugEnabled())
             log.debug("status DEBUG: Start Summer Travel!");
         log.info("status INFO: Start Summer Travel!");
+        goTraval();
     }
 
     @Override

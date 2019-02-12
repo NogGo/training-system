@@ -10,6 +10,7 @@ public class WinterTravel implements Travel {
     @Override
     public void startPack() {
         log.info("status INFO: Start Winter Travel!");
+        goTraval();
     }
 
     @Override
