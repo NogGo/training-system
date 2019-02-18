@@ -1,4 +1,4 @@
-package ru.my.test.patterns.factoryMethod.Travels;
+package ru.my.test.patterns.generating_design_patterns.factoryMethod.Travels;
 
 /**
  * Общий интерфейс для всех продуктов.

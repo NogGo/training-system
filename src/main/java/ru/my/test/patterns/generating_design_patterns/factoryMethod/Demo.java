@@ -1,8 +1,8 @@
-package ru.my.test.patterns.factoryMethod;
+package ru.my.test.patterns.generating_design_patterns.factoryMethod;
 
-import ru.my.test.patterns.factoryMethod.factory.Dialog;
-import ru.my.test.patterns.factoryMethod.factory.WinDialog;
-import ru.my.test.patterns.factoryMethod.factory.SumDialog;
+import ru.my.test.patterns.generating_design_patterns.factoryMethod.factory.Dialog;
+import ru.my.test.patterns.generating_design_patterns.factoryMethod.factory.WinDialog;
+import ru.my.test.patterns.generating_design_patterns.factoryMethod.factory.SumDialog;
 
 import java.util.Scanner;
 

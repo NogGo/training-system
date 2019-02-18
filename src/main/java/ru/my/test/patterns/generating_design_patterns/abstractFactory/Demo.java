@@ -1,11 +1,9 @@
-package ru.my.test.patterns.abstractFactory;
+package ru.my.test.patterns.generating_design_patterns.abstractFactory;
 
-import ru.my.test.patterns.abstractFactory.app.Application;
-import ru.my.test.patterns.abstractFactory.factories.ClassicalFactory;
-import ru.my.test.patterns.abstractFactory.factories.FurnitureFactory;
-import ru.my.test.patterns.abstractFactory.factories.ItalianFactory;
-import ru.my.test.patterns.factoryMethod.factory.SumDialog;
-import ru.my.test.patterns.factoryMethod.factory.WinDialog;
+import ru.my.test.patterns.generating_design_patterns.abstractFactory.app.Application;
+import ru.my.test.patterns.generating_design_patterns.abstractFactory.factories.ClassicalFactory;
+import ru.my.test.patterns.generating_design_patterns.abstractFactory.factories.FurnitureFactory;
+import ru.my.test.patterns.generating_design_patterns.abstractFactory.factories.ItalianFactory;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package ru.my.test.patterns.abstractFactory.sofa;
+package ru.my.test.patterns.generating_design_patterns.abstractFactory.sofa;
 
 public class ItalianSofa implements Sofa{
     @Override

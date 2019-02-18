@@ -1,4 +1,4 @@
-package ru.my.test.patterns.abstractFactory.chairs;
+package ru.my.test.patterns.generating_design_patterns.abstractFactory.chairs;
 
 //Кресло, обший интерфейс продукта 1
 public interface Chair {

@@ -1,8 +1,8 @@
-package ru.my.test.patterns.abstractFactory.app;
+package ru.my.test.patterns.generating_design_patterns.abstractFactory.app;
 
-import ru.my.test.patterns.abstractFactory.chairs.Chair;
-import ru.my.test.patterns.abstractFactory.factories.FurnitureFactory;
-import ru.my.test.patterns.abstractFactory.sofa.Sofa;
+import ru.my.test.patterns.generating_design_patterns.abstractFactory.chairs.Chair;
+import ru.my.test.patterns.generating_design_patterns.abstractFactory.factories.FurnitureFactory;
+import ru.my.test.patterns.generating_design_patterns.abstractFactory.sofa.Sofa;
 
 /**
  * Код, использующий фабрику, не волнует с какой конкретно фабрикой он работает.

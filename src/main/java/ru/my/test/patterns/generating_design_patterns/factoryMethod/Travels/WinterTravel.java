@@ -1,4 +1,4 @@
-package ru.my.test.patterns.factoryMethod.Travels;
+package ru.my.test.patterns.generating_design_patterns.factoryMethod.Travels;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

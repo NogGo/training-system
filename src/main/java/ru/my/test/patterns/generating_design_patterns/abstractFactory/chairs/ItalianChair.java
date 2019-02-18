@@ -1,4 +1,4 @@
-package ru.my.test.patterns.abstractFactory.chairs;
+package ru.my.test.patterns.generating_design_patterns.abstractFactory.chairs;
 
 public class ItalianChair implements Chair{
     @Override
