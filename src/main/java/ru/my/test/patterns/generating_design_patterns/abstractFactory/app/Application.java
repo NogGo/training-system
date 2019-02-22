@@ -23,6 +23,5 @@ public class Application {
         chair.seatWidth();
 
         sofa.doing();
-        sofa.doing();
     }
 }
