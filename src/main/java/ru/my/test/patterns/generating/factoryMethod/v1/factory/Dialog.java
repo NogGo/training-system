@@ -1,6 +1,6 @@
-package ru.my.test.patterns.generating.factoryMethod.factory;
+package ru.my.test.patterns.generating.factoryMethod.v1.factory;
 
-import ru.my.test.patterns.generating.factoryMethod.Travels.Travel;
+import ru.my.test.patterns.generating.factoryMethod.v1.Travels.Travel;
 
 /**
  * Базовый класс фабрики. Заметьте, что "фабрика" – это всего лишь
